@@ -1,0 +1,34 @@
+.main-page-title{
+    color:rgb(245, 244, 244);
+    font-weight:bolder;
+    font-size :80px;
+    font-family: 'Cinzel', serif;
+    margin-top:-10px;
+}
+img{
+    padding:10px;
+}
+.wolfy{
+    position: relative;
+    overflow: visible;
+}
+.wolfy::after{
+    background-image:url(/assets/img/wolfEyes.jpg);
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1000;
+        //opacity: 0.9;
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+    
+}

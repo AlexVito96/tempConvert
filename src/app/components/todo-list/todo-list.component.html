@@ -1,0 +1,17 @@
+<h2>To-Do List</h2>
+<div class="form-group">
+  <label for="todoList">To-Do:</label>
+  <input [(ngModel)]= "addTo" type="text" name="todo" class="form-control">
+</div>
+
+<button type="submit" name="addTo" class="textfield btn-primary">Add to List</button>
+
+<div>
+
+  <ul>
+    <li *ngFor="let todo of todoList; let i=index ">
+      <input type="checkbox" class="checkbox">{{todo.addTo}} [(ngModel)]="todo.completed" />
+    </li>
+  </ul>
+
+</div>

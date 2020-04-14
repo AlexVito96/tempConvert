@@ -1,0 +1,26 @@
+
+.centered {
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    margin-top: -120px;
+    margin-left: -200px;
+  }
+div.cont{
+    width:400px !important;
+    height:300px !important;
+    box-shadow: inset -3px -3px 10px #eee;
+}
+.header{
+    padding:5px;
+    font-family: 'Cinzel', serif;
+    margin-top:10px;
+}
+
+
+.move{
+    margin-top:10px;
+}
+.booger{
+    box-shadow: inset -3px -3px 10px #eee;
+}

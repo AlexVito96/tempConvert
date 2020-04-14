@@ -1,0 +1,13 @@
+<div class="converter">
+  <div class="ctrl">
+    <h2>Temperature converted</h2>
+    <div class="look">
+      Fahrenheit: <input type="number" class="far" [(ngModel)]="farenheit" (ngModelChange)="convertToC()">
+        <img src="/assets/img/upDown.png" alt="">
+      Celcius: <input type="number" class="cel" [(ngModel)]="celcius" (ngModelChange)="convertToF()">
+    </div>
+    <br>
+
+    <!--<button (click)="converttoF()"></button>-->
+  </div>
+</div>
