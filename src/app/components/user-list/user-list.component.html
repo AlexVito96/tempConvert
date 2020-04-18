@@ -1,5 +1,7 @@
-<h2>List of Users in the System</h2>
+<div class="head">
+  <h2>List of Users in the System</h2>
 There are: {{ allUsers.length }}
+</div>
 
 <!-- <ul>
     <li *ngFor="let user of allUsers" >{{ user.firstName}} {{user.lastName}}</li>
@@ -23,8 +25,8 @@ There are: {{ allUsers.length }}
   <h6>Please register users on the Register Page</h6>
 </div>
 
-<table *ngIf="allUsers.length > 0" class="table table-bordered table-striped">
-  <thead class="thead-dark"> 
+<table *ngIf="allUsers.length > 0" class="table table-striped">
+  <thead class="color"> 
     <tr>
       <th>User Name</th>
       <th>Email</th>
